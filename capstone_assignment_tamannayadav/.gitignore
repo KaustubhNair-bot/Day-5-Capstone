@@ -10,6 +10,5 @@ venv/
 .DS_Store
 
 # Project
-data/processed/
 *.log
 .env
