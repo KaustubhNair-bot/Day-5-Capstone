@@ -1,0 +1,6 @@
+city,temperature,weathercode,windspeed,lat,lng,country,population,temp_category,population_bucket
+tokyo,6.38,broken clouds,6.69,35.687,139.7495,Japan,37785000.0,Cold,Large
+jakarta,27.74,scattered clouds,3.6,-6.175,106.8275,Indonesia,33756000.0,Moderate,Large
+delhi,17.1,haze,1.54,28.61,77.23,India,32226000.0,Moderate,Large
+guangzhou,19.92,clear sky,1.07,23.13,113.26,China,26940000.0,Moderate,Large
+mumbai,28.19,smoke,5.14,19.0761,72.8775,India,24973000.0,Moderate,Large
