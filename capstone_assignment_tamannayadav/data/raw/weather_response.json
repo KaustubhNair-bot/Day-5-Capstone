@@ -1,0 +1,47 @@
+[
+  {
+    "city": "tokyo",
+    "lat": 35.687,
+    "lng": 139.7495,
+    "temperature": 2.6,
+    "humidity": 53,
+    "weather_code": 2,
+    "weather_condition": "Partly cloudy"
+  },
+  {
+    "city": "jakarta",
+    "lat": -6.175,
+    "lng": 106.8275,
+    "temperature": 26.5,
+    "humidity": 85,
+    "weather_code": 95,
+    "weather_condition": "Thunderstorm"
+  },
+  {
+    "city": "delhi",
+    "lat": 28.61,
+    "lng": 77.23,
+    "temperature": 15.4,
+    "humidity": 80,
+    "weather_code": 0,
+    "weather_condition": "Clear sky"
+  },
+  {
+    "city": "guangzhou",
+    "lat": 23.13,
+    "lng": 113.26,
+    "temperature": 16.6,
+    "humidity": 69,
+    "weather_code": 1,
+    "weather_condition": "Mainly clear"
+  },
+  {
+    "city": "mumbai",
+    "lat": 19.0761,
+    "lng": 72.8775,
+    "temperature": 24.4,
+    "humidity": 66,
+    "weather_code": 0,
+    "weather_condition": "Clear sky"
+  }
+]
