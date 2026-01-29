@@ -1,0 +1,6 @@
+city,country,lat,lng,population,temperature,humidity,condition,temperature_category,population_bucket
+new york,united states,40.6943,-73.9249,18832416.0,-7.3,53,Clear,Cold,10M+
+los angeles,united states,34.1141,-118.4068,11885717.0,13.59,38,Clear,Cold,10M+
+chicago,united states,41.8375,-87.6866,8489066.0,-13.95,75,Clouds,Cold,5M-10M
+houston,united states,29.786,-95.3885,6046392.0,6.8,86,Clear,Cold,5M-10M
+phoenix,united states,33.5722,-112.0892,4065338.0,11.25,35,Clouds,Cold,1M-5M

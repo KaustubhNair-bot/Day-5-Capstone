@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Python environment variable files (API keys)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Raw API responses (generated JSON files)
+data/raw/*.json
+
+# Pytest cache
+.pytest_cache/
