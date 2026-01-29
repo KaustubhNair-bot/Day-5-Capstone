@@ -1,0 +1,6 @@
+city,country,lat,lng,population,temp,humidity,condition,temp_category,population_bucket
+tokyo,Japan,35.687,139.7495,37785000.0,6.68,32,clouds,Cold,Mega
+jakarta,Indonesia,-6.175,106.8275,33756000.0,28.12,75,clouds,Warm,Mega
+delhi,India,28.61,77.23,32226000.0,16.05,82,mist,Mild,Mega
+guangzhou,China,23.13,113.26,26940000.0,20.97,45,clear,Warm,Mega
+mumbai,India,19.0761,72.8775,24973000.0,28.99,45,smoke,Warm,Mega
