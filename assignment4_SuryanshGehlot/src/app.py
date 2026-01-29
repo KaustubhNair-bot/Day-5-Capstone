@@ -7,9 +7,6 @@ DATA_PATH = "data/processed/merged_data.csv"
 
 app = FastAPI(title="City Weather Analytics API")
 
-
-# ---------------- STARTUP CHECK ---------------- #
-
 if not os.path.exists(DATA_PATH):
     raise HTTPException(
         status_code=500,
@@ -18,18 +15,12 @@ if not os.path.exists(DATA_PATH):
 
 city_data = pd.read_csv(DATA_PATH)
 
-
-# ---------------- ENUM FOR DROPDOWN ---------------- #
-
 class TempCategory(str, Enum):
     Freezing = "Freezing"
     Cold = "Cold"
     Mild = "Mild"
     Warm = "Warm"
     Hot = "Hot"
-
-
-# ---------------- ENDPOINTS ---------------- #
 
 @app.get("/cities")
 def get_cities(page: int = 1, limit: int = 10):
@@ -88,7 +79,6 @@ def get_cities_by_temperature(
         "total_records": len(filtered),
         "data": paged_table.to_dict(orient="records")
     }
-
 
 @app.get("/cities/{city_name}")
 def get_city(city_name: str):
