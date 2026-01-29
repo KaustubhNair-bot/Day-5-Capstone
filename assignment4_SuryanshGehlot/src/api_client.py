@@ -16,7 +16,7 @@ def fetch_weather(city_name:str,api_key:str) ->dict:
 
         response = requests.get(base_url, params=params, timeout=10)
 
-        response.raise_for_status()  # Raise an error for bad responses (4xx and 5xx)
+        response.raise_for_status()  # Raise an error for bad responses 
 
         payload = response.json()
 
