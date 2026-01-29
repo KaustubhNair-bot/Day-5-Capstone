@@ -16,7 +16,7 @@ def test_removes_null_coordinates():
     cleaned = clean_city_table(raw) #clean the raw data
 
     assert len(cleaned) == 1 #only Delhi remains
-    assert cleaned.iloc[0]["city"] == "delhi" ##iloc is for integer-location based indexing for selection by position ;city name is lowercased
+    assert cleaned.iloc[0]["city"] == "delhi" 
 
 def test_removes_duplicates():
     raw = pd.DataFrame({
@@ -32,7 +32,3 @@ def test_removes_duplicates():
     assert len(cleaned) == 2
     assert "delhi" in cleaned["city"].values
     assert "jaipur" in cleaned["city"].values
-
-#assert is the heart of unit testing
-#if true test passes else fails immediately n raises an AssertionError
-#cleaned["city"].values → array of city names
