@@ -1,4 +1,4 @@
-# add derived columns to a DataFrame ; e.g., temperature in Fahrenheit from Celsius; converting raw numbers to categorical labels
+# add derived columns to a DataFrame; converting raw numbers to categorical labels
 
 import pandas as pd
 
