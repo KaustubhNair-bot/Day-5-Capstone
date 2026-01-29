@@ -1,0 +1,6 @@
+city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id,temperature,humidity,weather_condition,temp_category,population_bucket
+tokyo,Tokyo,35.687,139.7495,Japan,JP,JPN,Tōkyō,primary,37785000.0,1392685764,2.6,53,Partly cloudy,Cold,Mega
+jakarta,Jakarta,-6.175,106.8275,Indonesia,ID,IDN,Jakarta,primary,33756000.0,1360771077,26.5,85,Thunderstorm,Hot,Mega
+delhi,Delhi,28.61,77.23,India,IN,IND,Delhi,admin,32226000.0,1356872604,15.4,80,Clear sky,Moderate,Mega
+guangzhou,Guangzhou,23.13,113.26,China,CN,CHN,Guangdong,admin,26940000.0,1156237133,16.6,69,Mainly clear,Moderate,Mega
+mumbai,Mumbai,19.0761,72.8775,India,IN,IND,Mahārāshtra,admin,24973000.0,1356226629,24.4,66,Clear sky,Moderate,Mega

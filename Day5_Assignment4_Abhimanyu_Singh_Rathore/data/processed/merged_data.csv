@@ -1,0 +1,6 @@
+lat,city,population,country,lng,temperature,humidity,weather_condition,temp_category
+35.687,tokyo,37785000.0,Japan,139.7495,3.3,46,Clouds,Cold
+-6.175,jakarta,33756000.0,Indonesia,106.8275,25.48,93,Clouds,Moderate
+28.61,delhi,32226000.0,India,77.23,12.1,94,Mist,Cold
+23.13,guangzhou,26940000.0,China,113.26,14.92,72,Clear,Cold
+19.0761,mumbai,24973000.0,India,72.8775,24.0,57,Smoke,Moderate

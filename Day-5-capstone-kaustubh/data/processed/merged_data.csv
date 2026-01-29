@@ -1,0 +1,6 @@
+city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id,city_normalized,temperature,humidity,weather_condition,weather_description,city,temperature_category,population_bucket
+Tokyo,35.687,139.7495,Japan,JP,JPN,Tōkyō,primary,37785000.0,1392685764,tokyo,6.82,33,Clear,clear sky,Tokyo,Cold,Large
+Mumbai,19.0761,72.8775,India,IN,IND,Mahārāshtra,admin,24973000.0,1356226629,mumbai,28.99,42,Smoke,smoke,Mumbai,Hot,Large
+New York,40.6943,-73.9249,United States,US,USA,New York,,18832416.0,1840034016,new york,-8.64,59,Clear,clear sky,New York,Cold,Large
+London,51.5072,-0.1275,United Kingdom,GB,GBR,"London, City of",primary,11262000.0,1826645935,london,4.19,93,Clouds,few clouds,London,Cold,Large
+Sydney,-33.8667,151.2,Australia,AU,AUS,New South Wales,admin,4840600.0,1036074917,sydney,23.72,73,Rain,light rain,Sydney,Moderate,Medium
